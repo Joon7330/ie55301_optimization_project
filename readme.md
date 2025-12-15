@@ -30,36 +30,12 @@ Optimizers evaluated include:
 
 ---
 
-## Repository Structure
-
-.
-├── main.ipynb              # Main experiment notebook
-
-└── README.md
-
----
-
 ## Dataset
 
 The ImageNet dataset must be downloaded separately from:
 https://image-net.org/index.php
 
 Please specify the local ImageNet path directly in `main.ipynb`.
-
----
-
-## Supported Optimizers
-
-The following optimizers are evaluated as inner-loop adversarial optimizers:
-	•	SGD
-	•	SGD + Momentum
-	•	Adam
-	•	AdamW
-	•	Adamax
-	•	RMSProp
-	•	Adagrad
-
-All optimizers are implemented using PyTorch and applied directly to the perturbation variable.
 
 ---
 
