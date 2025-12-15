@@ -33,7 +33,8 @@ Optimizers evaluated include:
 ## Repository Structure
 
 .
-├── main.ipynb              # Main experiment notebook \\
+├── main.ipynb              # Main experiment notebook
+
 └── README.md
 
 ---
